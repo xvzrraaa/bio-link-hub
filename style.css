@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  font-family: Inter, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #0f0f0f;
+  color: white;
+}
+
+.container {
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.bio {
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 24px;
+}
+
+.link {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background: #1f1f1f;
+  padding: 14px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+.link:hover {
+  background: #2a2a2a;
+  transform: scale(1.02);
+}
